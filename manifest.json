@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Video Link Redirect",
+  "version": "1.0",
+  "description": "Adds a context menu to redirect YouTube video links.",
+  "permissions": ["contextMenus", "tabs"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
